@@ -1,6 +1,6 @@
 package com.automation.rms.remitron.report;
 
-import automation.tranzfusion.rtgs.testcases.BaseTest;
+import com.automation.rms.remitron.testcases.BaseTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import org.openqa.selenium.OutputType;
@@ -69,6 +69,7 @@ public class TestListener implements ITestListener {
         ReportTestManager.getTest().fail("details",
                 MediaEntityBuilder.createScreenCaptureFromBase64String(base64Screenshot).build());
     }
+    
 
     @Override
     public void onTestSkipped(ITestResult iTestResult) {

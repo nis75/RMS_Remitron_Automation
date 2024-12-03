@@ -1,7 +1,37 @@
 package com.automation.rms.remitron.util;
 
 import org.testng.annotations.DataProvider;
-
+//----------------Total Sheet Name List----------------------
+//Country
+//Division
+//District
+//Thana
+//Currency
+//ExchangeHouse
+//ExchangeHouseFileMap
+//ExchangeHouseFileTypeMap
+//Commission
+//Incentive
+//ExchangeHousePinFormat
+//ExchangeHouseDeal
+//BankList
+//BranchList
+//Agent
+//CustomerRegistration
+//ExchangeHouseFileUpload
+//ProcessUploadedTransaction
+//AuthorizeProcessTransaction
+//DisburseOwnBankTransaction
+//ProcessCashTransactionOverTheCounter
+//ProcessManualCashTransaction
+//DisburseBEFTNTransaction
+//DisburseIncentive
+//UploadReturnTransaction
+//UnsettleTransactionPrincipal
+//UnsettleTransactionIncentive
+//AuthorizeCashTransaction
+//NOSTROToFCTransfer
+//FCToNRTATransfer
 public class DataProviders {
     @DataProvider(name="UserLogin")
     public String [][] UserLoginDataProvider()

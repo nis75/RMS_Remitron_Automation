@@ -2,14 +2,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <listeners>
-        <listener class-name="automation.tranzfusion.rtgs.report.TestListener"></listener>
+        <listener class-name="com.automation.rms.remitron.report.TestListener"></listener>
     </listeners>
     <test verbose="2" preserve-order="true" name="D:/Test Automation Project/Selenium_POM/src/test/resources">
 <!--        <packages>-->
-<!--            <package name="com.parabank.parasoft.testcases.RegisterTest"></package>-->
+<!--            <package name="com.automation.rms.remitron.testcases.BaseTest"></package>-->
 <!--        </packages>--> 
         <classes>
-            <class name="automation.tranzfusion.rtgs.testcases.LoginTest"></class>
+            <class name="com.automation.rms.remitron.testcases.BaseTest"></class>
         </classes>
     </test>
 </suite>
