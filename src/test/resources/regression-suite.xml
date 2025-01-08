@@ -4,12 +4,12 @@
     <listeners>
         <listener class-name="com.automation.rms.remitron.report.TestListener"></listener>
     </listeners>
-    <test verbose="2" preserve-order="true" name="D:/Test Automation Project/Selenium_POM/src/test/resources">
+    <test verbose="2" preserve-order="true" name="D:\Test Automation Project\RMS_Remitron_Automation\src\test\resources">
 <!--        <packages>-->
 <!--            <package name="com.automation.rms.remitron.testcases.BaseTest"></package>-->
 <!--        </packages>--> 
         <classes>
-            <class name="com.automation.rms.remitron.testcases.LoginTest"></class>
+            <class name="com.automation.rms.remitron.testcases.TransactionUploadTest"></class>
         </classes>
     </test>
 </suite>
