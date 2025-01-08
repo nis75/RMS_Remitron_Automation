@@ -1,30 +1,3 @@
-package com.automation.rms.remitron.report;
-
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
-
-import java.util.HashMap;
-import java.util.Map;
-
-public class ReportTestManager {
-
-    static Map<Integer, ExtentTest> extentTestMap = new HashMap<Integer, ExtentTest>();
-    static ExtentReports extent = ReportManager.getInstance();
-
-    public static synchronized ExtentTest getTest() {
-        return (ExtentTest) extentTestMap.get((int) (long) (Thread.currentThread().getId()));
-    }
-
-    public static synchronized ExtentTest startTest(String testName, String className) {
-        ExtentTest test = extent.createTest(testName, className);
-        extentTestMap.put((int) (long) (Thread.currentThread().getId()), test);
-        test.assignAuthor("Niamul");
-        test.assignCategory(className);
-        return test;
-    }
-
-    public static synchronized void logText(String message) {
-        getTest().log(Status.PASS, message);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a7b3d85a1a50e00cc39c65165ebf6455df60c8245219235e6c1325561fa45d6
+size 1062

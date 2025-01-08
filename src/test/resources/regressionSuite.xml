@@ -9,7 +9,7 @@
 <!--            <package name="com.automation.rms.remitron.testcases.BaseTest"></package>-->
 <!--        </packages>--> 
         <classes>
-            <class name="com.automation.rms.remitron.testcases.BaseTest"></class>
+            <class name="com.automation.rms.remitron.testcases.LoginTest"></class>
         </classes>
     </test>
 </suite>
